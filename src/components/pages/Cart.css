@@ -1,0 +1,21 @@
+.item__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+    position: relative;
+    top:61px;
+}
+
+.item__content{
+    border: 2px solid chartreuse;
+    background-color:cornsilk;
+    padding: 10px;
+    width: 15vw;
+    font-size: 0.7em;
+    text-align: center;
+    margin: 7px 0px;
+
+}

@@ -1,0 +1,42 @@
+/* .product{
+    border: 2px solid red;
+} */
+
+.product__card{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.productsWrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    
+    position: relative;
+    top:44px;
+}
+
+.card{
+    border: 2px solid cyan;
+    text-align: center;
+    width: 15vw;
+    font-size: 0.7em;
+    margin: 7px 0px;
+    padding: 15px 15px;
+    background-color: aqua;
+    }
+
+    img{
+        height: 7em;
+    }
+
+.card button{
+    background-color: blueviolet;
+    color: white;
+}
